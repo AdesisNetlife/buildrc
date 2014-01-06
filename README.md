@@ -96,8 +96,17 @@ Scope: `global|local`
 
 Set/unset environment variables
 
-##### set <variable> <value>
-##### unset <variable>
+#### set
+Type: `assignment`
+Scope: `env`
+
+Create and set a variable value
+
+#### unset
+Type: `assignment`
+Scope: `env`
+
+Unset a variable
 
 #### workdir
 Type: `string`
@@ -156,12 +165,15 @@ Scope: `global|local`
 Define a max execution timeout. 
 Optionally you can declare a timeout block with a per-task-specific timeout or a global timeout
 
-##### task
+#### task
 Type: `number`
+Scope: `timeout`
+
 Define a task-specific execution timeout in miliseconds
 
-##### global
+#### global
 Type: `number`
+Scope: `timeout`
 
 Define a global execution timeout in miliseconds
 

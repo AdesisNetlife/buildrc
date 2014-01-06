@@ -1,6 +1,5 @@
-# build.yml
+# .buildrc
 
-A general purpose project build configuration file for any continuous integration server solution, cross environment and fully customizable.
-Heavily inspired by `travis.yml`
+> A generic, unopiniotated, cross-platform, language/CI-agnostic build configuration file with own DSL
 
-`Work in process`
+`Work in progress`

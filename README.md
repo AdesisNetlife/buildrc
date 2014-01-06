@@ -55,7 +55,7 @@ task: test
     global: 10000
   end
 
-  run: mongo 
+  run: redis-server 
   run: node app.js 
 
   events:

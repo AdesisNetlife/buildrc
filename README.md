@@ -79,10 +79,14 @@ Buildspec is a minimalist DSL created to be used in `buildrc` configuration file
 ### Configuration blocks
 
 #### requirements
-Define pre-execution requirements
+Type: `block`
+Scope: `global|task`
+
+Define pre-task execution requirements
 
 #### task
 Type: `block`
+Scope: `global`
 
 Register a callable task
 
@@ -138,10 +142,6 @@ Type: `block`
 Scope: `local`
 
 Task state execution events configuration
-
-#### requirements
-Type: `block`
-Scope: `global|task`
 
 #### satisfies
 Type: `string`

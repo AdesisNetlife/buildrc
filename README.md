@@ -26,9 +26,11 @@ before:
 end
 
 requirements:
-  satisfies: make
-  satisfies: redis
-  satisfies: nodejs@~0.10.0
+  satisfies: 
+    make
+    redis
+    nodejs@~0.10.0
+  end
 end
 
 env:
@@ -136,6 +138,16 @@ Type: `block`
 Scope: `local`
 
 Task state execution events configuration
+
+#### requirements
+Type: `block`
+Scope: `global|task`
+
+#### satisfies
+Type: `string`
+Scope: `requirements`
+
+Check if a binary exists
 
 #### timeout
 Type: `timeout block|number` 

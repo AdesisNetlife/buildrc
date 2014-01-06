@@ -12,7 +12,6 @@ continuous integration server
 ## Example
 
 A complete `buildrc` example file, using the `buildspec` language
-**Under designing process**
 
 ```ruby
 # this is an in-line comment

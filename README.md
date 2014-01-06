@@ -1,6 +1,6 @@
 # .buildrc
 
-> A generic, unopiniotated, cross-platform, language/CI-agnostic build configuration file with own DSL
+> Generic, unopiniotated, cross-platform, language/CI-agnostic build configuration file with own DSL
 
 **hey! do not take this seriously, work in progress**
 

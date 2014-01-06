@@ -144,8 +144,14 @@ Scope: `global|local`
 Define a max execution timeout. 
 Optionally you can declare a timeout block with a per-task-specific timeout or a global timeout
 
-##### task <miliseconds>
-##### global <miliseconds>
+##### task
+Type: `number`
+Define a task-specific execution timeout in miliseconds
+
+##### global
+Type: `number`
+
+Define a global execution timeout in miliseconds
 
 ### Expressions
 
